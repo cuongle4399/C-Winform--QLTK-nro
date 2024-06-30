@@ -1,0 +1,24 @@
+C:\Users\Cuong Le\Desktop\C# winform app\Quản lý tài khoản nro\Quản lý tài khoản nro\bin\Debug\Quản lý tài khoản nro.exe.config
+C:\Users\Cuong Le\Desktop\C# winform app\Quản lý tài khoản nro\Quản lý tài khoản nro\bin\Debug\Quản lý tài khoản nro.exe
+C:\Users\Cuong Le\Desktop\C# winform app\Quản lý tài khoản nro\Quản lý tài khoản nro\bin\Debug\Quản lý tài khoản nro.pdb
+C:\Users\Cuong Le\Desktop\C# winform app\Quản lý tài khoản nro\Quản lý tài khoản nro\obj\Debug\Quản lý tài khoản nro.csproj.AssemblyReference.cache
+C:\Users\Cuong Le\Desktop\C# winform app\Quản lý tài khoản nro\Quản lý tài khoản nro\obj\Debug\Quản_lý_tài_khoản_nro.Properties.Resources.resources
+C:\Users\Cuong Le\Desktop\C# winform app\Quản lý tài khoản nro\Quản lý tài khoản nro\obj\Debug\Quản lý tài khoản nro.csproj.GenerateResource.cache
+C:\Users\Cuong Le\Desktop\C# winform app\Quản lý tài khoản nro\Quản lý tài khoản nro\obj\Debug\Quản lý tài khoản nro.csproj.CoreCompileInputs.cache
+C:\Users\Cuong Le\Desktop\C# winform app\Quản lý tài khoản nro\Quản lý tài khoản nro\obj\Debug\Quản lý tài khoản nro.exe
+C:\Users\Cuong Le\Desktop\C# winform app\Quản lý tài khoản nro\Quản lý tài khoản nro\obj\Debug\Quản lý tài khoản nro.pdb
+C:\Users\Cuong Le\Desktop\C# winform app\Quản lý tài khoản nro\Quản lý tài khoản nro\obj\Debug\Quản_lý_tài_khoản_nro.frmQLTK.resources
+C:\Users\Cuong Le\Desktop\C# winform\Quản lý tài khoản nro\Quản lý tài khoản nro\obj\Debug\Quản lý tài khoản nro.csproj.AssemblyReference.cache
+C:\Users\Cuong Le\Desktop\C# winform\Quản lý tài khoản nro\Quản lý tài khoản nro\obj\Debug\Quản_lý_tài_khoản_nro.frmQLTK.resources
+C:\Users\Cuong Le\Desktop\C# winform\Quản lý tài khoản nro\Quản lý tài khoản nro\obj\Debug\Quản_lý_tài_khoản_nro.Properties.Resources.resources
+C:\Users\Cuong Le\Desktop\C# winform\Quản lý tài khoản nro\Quản lý tài khoản nro\obj\Debug\Quản lý tài khoản nro.csproj.GenerateResource.cache
+C:\Users\Cuong Le\Desktop\C# winform\Quản lý tài khoản nro\Quản lý tài khoản nro\obj\Debug\Quản lý tài khoản nro.csproj.CoreCompileInputs.cache
+C:\Users\Cuong Le\Desktop\C# winform\Quản lý tài khoản nro\Quản lý tài khoản nro\bin\Debug\QLTK nro -Cường Lê.exe.config
+C:\Users\Cuong Le\Desktop\C# winform\Quản lý tài khoản nro\Quản lý tài khoản nro\bin\Debug\QLTK nro -Cường Lê.exe.manifest
+C:\Users\Cuong Le\Desktop\C# winform\Quản lý tài khoản nro\Quản lý tài khoản nro\bin\Debug\QLTK nro -Cường Lê.application
+C:\Users\Cuong Le\Desktop\C# winform\Quản lý tài khoản nro\Quản lý tài khoản nro\bin\Debug\QLTK nro -Cường Lê.exe
+C:\Users\Cuong Le\Desktop\C# winform\Quản lý tài khoản nro\Quản lý tài khoản nro\bin\Debug\QLTK nro -Cường Lê.pdb
+C:\Users\Cuong Le\Desktop\C# winform\Quản lý tài khoản nro\Quản lý tài khoản nro\obj\Debug\QLTK nro -Cường Lê.exe.manifest
+C:\Users\Cuong Le\Desktop\C# winform\Quản lý tài khoản nro\Quản lý tài khoản nro\obj\Debug\QLTK nro -Cường Lê.application
+C:\Users\Cuong Le\Desktop\C# winform\Quản lý tài khoản nro\Quản lý tài khoản nro\obj\Debug\QLTK nro -Cường Lê.exe
+C:\Users\Cuong Le\Desktop\C# winform\Quản lý tài khoản nro\Quản lý tài khoản nro\obj\Debug\QLTK nro -Cường Lê.pdb
