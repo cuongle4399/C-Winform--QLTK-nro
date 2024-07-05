@@ -180,6 +180,7 @@ namespace Quản_lý_tài_khoản_nro
                 {
                     dataGridView1.Rows[dataGridView1.CurrentRow.Index].Cells[3].Value = 13;
                  }
+            ghifile(dataGridView1);
 
         }
 
@@ -286,18 +287,6 @@ namespace Quản_lý_tài_khoản_nro
             }
         }
 
-        private void btnsavechat_Click(object sender, EventArgs e)
-        {
-            if (string.IsNullOrEmpty(txtnoidungchat.Text))
-            {
-                MessageBox.Show("Nhập nội dung chat đi", "lỗi nhập", MessageBoxButtons.OK);
-            }
-            else
-            {
-                MessageBox.Show("Vào game bật auto sủa là ok", "Lưu thành công", MessageBoxButtons.OK);
-                File.WriteAllText("autochat.txt",txtnoidungchat.Text);
-            }
-        }
 
         private void grbsize_Enter(object sender, EventArgs e)
         {
@@ -310,6 +299,12 @@ namespace Quản_lý_tài_khoản_nro
             {
                 btnlogin.PerformClick();
             }
+        }
+
+        private void btnmenumob_Click(object sender, EventArgs e)
+        {
+            frmmenumob form2 = new frmmenumob();
+            form2.ShowDialog();
         }
     }
 }

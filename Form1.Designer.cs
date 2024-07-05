@@ -56,10 +56,7 @@
             this.label1 = new System.Windows.Forms.Label();
             this.txtH = new System.Windows.Forms.TextBox();
             this.txtW = new System.Windows.Forms.TextBox();
-            this.btnsavechat = new System.Windows.Forms.Button();
-            this.button2 = new System.Windows.Forms.Button();
-            this.txtnoidungchat = new System.Windows.Forms.TextBox();
-            this.label2 = new System.Windows.Forms.Label();
+            this.btnmenumob = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
@@ -82,7 +79,7 @@
             this.dataGridView1.RowHeadersVisible = false;
             this.dataGridView1.RowHeadersWidth = 51;
             this.dataGridView1.RowTemplate.Height = 24;
-            this.dataGridView1.Size = new System.Drawing.Size(543, 509);
+            this.dataGridView1.Size = new System.Drawing.Size(482, 435);
             this.dataGridView1.TabIndex = 0;
             this.dataGridView1.CellClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dataGridView1_CellClick);
             this.dataGridView1.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dataGridView1_CellContentClick);
@@ -99,7 +96,7 @@
             this.account.HeaderText = "Tài Khoản";
             this.account.MinimumWidth = 6;
             this.account.Name = "account";
-            this.account.Width = 350;
+            this.account.Width = 320;
             // 
             // password
             // 
@@ -114,12 +111,12 @@
             this.server.HeaderText = "Server";
             this.server.MinimumWidth = 6;
             this.server.Name = "server";
-            this.server.Width = 150;
+            this.server.Width = 120;
             // 
             // pictureBox4
             // 
             this.pictureBox4.Image = global::Quản_lý_tài_khoản_nro.Properties.Resources.maychu;
-            this.pictureBox4.Location = new System.Drawing.Point(576, 191);
+            this.pictureBox4.Location = new System.Drawing.Point(504, 175);
             this.pictureBox4.Margin = new System.Windows.Forms.Padding(4);
             this.pictureBox4.Name = "pictureBox4";
             this.pictureBox4.Size = new System.Drawing.Size(38, 29);
@@ -130,7 +127,7 @@
             // pictureBox3
             // 
             this.pictureBox3.Image = global::Quản_lý_tài_khoản_nro.Properties.Resources.matkhau;
-            this.pictureBox3.Location = new System.Drawing.Point(576, 142);
+            this.pictureBox3.Location = new System.Drawing.Point(504, 126);
             this.pictureBox3.Margin = new System.Windows.Forms.Padding(4);
             this.pictureBox3.Name = "pictureBox3";
             this.pictureBox3.Size = new System.Drawing.Size(38, 29);
@@ -141,7 +138,7 @@
             // pictureBox2
             // 
             this.pictureBox2.Image = global::Quản_lý_tài_khoản_nro.Properties.Resources.taikhoan;
-            this.pictureBox2.Location = new System.Drawing.Point(576, 99);
+            this.pictureBox2.Location = new System.Drawing.Point(504, 83);
             this.pictureBox2.Margin = new System.Windows.Forms.Padding(4);
             this.pictureBox2.Name = "pictureBox2";
             this.pictureBox2.Size = new System.Drawing.Size(38, 29);
@@ -152,17 +149,17 @@
             // pictureBox1
             // 
             this.pictureBox1.Image = global::Quản_lý_tài_khoản_nro.Properties.Resources.logo;
-            this.pictureBox1.Location = new System.Drawing.Point(697, 13);
+            this.pictureBox1.Location = new System.Drawing.Point(526, 13);
             this.pictureBox1.Margin = new System.Windows.Forms.Padding(4);
             this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(483, 63);
+            this.pictureBox1.Size = new System.Drawing.Size(403, 50);
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox1.TabIndex = 1;
             this.pictureBox1.TabStop = false;
             // 
             // lblacount
             // 
-            this.lblacount.Location = new System.Drawing.Point(623, 99);
+            this.lblacount.Location = new System.Drawing.Point(551, 83);
             this.lblacount.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblacount.Name = "lblacount";
             this.lblacount.Size = new System.Drawing.Size(101, 29);
@@ -172,7 +169,7 @@
             // 
             // lblpassword
             // 
-            this.lblpassword.Location = new System.Drawing.Point(623, 141);
+            this.lblpassword.Location = new System.Drawing.Point(551, 125);
             this.lblpassword.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblpassword.Name = "lblpassword";
             this.lblpassword.Size = new System.Drawing.Size(101, 29);
@@ -182,7 +179,7 @@
             // 
             // lblserver
             // 
-            this.lblserver.Location = new System.Drawing.Point(623, 191);
+            this.lblserver.Location = new System.Drawing.Point(551, 175);
             this.lblserver.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblserver.Name = "lblserver";
             this.lblserver.Size = new System.Drawing.Size(101, 29);
@@ -192,19 +189,19 @@
             // 
             // txtaccount
             // 
-            this.txtaccount.Location = new System.Drawing.Point(749, 99);
+            this.txtaccount.Location = new System.Drawing.Point(677, 83);
             this.txtaccount.Multiline = true;
             this.txtaccount.Name = "txtaccount";
-            this.txtaccount.Size = new System.Drawing.Size(459, 29);
+            this.txtaccount.Size = new System.Drawing.Size(281, 29);
             this.txtaccount.TabIndex = 8;
             // 
             // txtpassword
             // 
-            this.txtpassword.Location = new System.Drawing.Point(749, 142);
+            this.txtpassword.Location = new System.Drawing.Point(677, 126);
             this.txtpassword.Multiline = true;
             this.txtpassword.Name = "txtpassword";
             this.txtpassword.PasswordChar = '*';
-            this.txtpassword.Size = new System.Drawing.Size(382, 29);
+            this.txtpassword.Size = new System.Drawing.Size(202, 29);
             this.txtpassword.TabIndex = 9;
             // 
             // cbserver
@@ -226,7 +223,7 @@
             "Liên server",
             "Super 1",
             "Super 2"});
-            this.cbserver.Location = new System.Drawing.Point(749, 191);
+            this.cbserver.Location = new System.Drawing.Point(677, 175);
             this.cbserver.Name = "cbserver";
             this.cbserver.Size = new System.Drawing.Size(110, 28);
             this.cbserver.TabIndex = 10;
@@ -235,7 +232,7 @@
             // cbhien
             // 
             this.cbhien.AutoSize = true;
-            this.cbhien.Location = new System.Drawing.Point(1138, 144);
+            this.cbhien.Location = new System.Drawing.Point(888, 128);
             this.cbhien.Name = "cbhien";
             this.cbhien.Size = new System.Drawing.Size(70, 24);
             this.cbhien.TabIndex = 11;
@@ -245,7 +242,7 @@
             // 
             // btnthem
             // 
-            this.btnthem.Location = new System.Drawing.Point(593, 237);
+            this.btnthem.Location = new System.Drawing.Point(526, 299);
             this.btnthem.Name = "btnthem";
             this.btnthem.Size = new System.Drawing.Size(122, 44);
             this.btnthem.TabIndex = 12;
@@ -255,7 +252,7 @@
             // 
             // btnsua
             // 
-            this.btnsua.Location = new System.Drawing.Point(737, 237);
+            this.btnsua.Location = new System.Drawing.Point(823, 299);
             this.btnsua.Name = "btnsua";
             this.btnsua.Size = new System.Drawing.Size(122, 44);
             this.btnsua.TabIndex = 13;
@@ -265,7 +262,7 @@
             // 
             // btnxoa
             // 
-            this.btnxoa.Location = new System.Drawing.Point(868, 237);
+            this.btnxoa.Location = new System.Drawing.Point(677, 299);
             this.btnxoa.Name = "btnxoa";
             this.btnxoa.Size = new System.Drawing.Size(122, 44);
             this.btnxoa.TabIndex = 14;
@@ -275,9 +272,9 @@
             // 
             // btnlogin
             // 
-            this.btnlogin.Location = new System.Drawing.Point(886, 191);
+            this.btnlogin.Location = new System.Drawing.Point(526, 223);
             this.btnlogin.Name = "btnlogin";
-            this.btnlogin.Size = new System.Drawing.Size(122, 29);
+            this.btnlogin.Size = new System.Drawing.Size(122, 44);
             this.btnlogin.TabIndex = 16;
             this.btnlogin.Text = "Login";
             this.btnlogin.UseVisualStyleBackColor = true;
@@ -285,9 +282,9 @@
             // 
             // btncloseall
             // 
-            this.btncloseall.Location = new System.Drawing.Point(1167, 191);
+            this.btncloseall.Location = new System.Drawing.Point(823, 223);
             this.btncloseall.Name = "btncloseall";
-            this.btncloseall.Size = new System.Drawing.Size(99, 29);
+            this.btncloseall.Size = new System.Drawing.Size(122, 44);
             this.btncloseall.TabIndex = 18;
             this.btncloseall.Text = "Close";
             this.btncloseall.UseVisualStyleBackColor = true;
@@ -295,9 +292,9 @@
             // 
             // btnloginall
             // 
-            this.btnloginall.Location = new System.Drawing.Point(1023, 191);
+            this.btnloginall.Location = new System.Drawing.Point(677, 223);
             this.btnloginall.Name = "btnloginall";
-            this.btnloginall.Size = new System.Drawing.Size(122, 29);
+            this.btnloginall.Size = new System.Drawing.Size(122, 44);
             this.btnloginall.TabIndex = 17;
             this.btnloginall.Text = "Login all";
             this.btnloginall.UseVisualStyleBackColor = true;
@@ -309,9 +306,9 @@
             this.grbsize.Controls.Add(this.label1);
             this.grbsize.Controls.Add(this.txtH);
             this.grbsize.Controls.Add(this.txtW);
-            this.grbsize.Location = new System.Drawing.Point(593, 421);
+            this.grbsize.Location = new System.Drawing.Point(555, 349);
             this.grbsize.Name = "grbsize";
-            this.grbsize.Size = new System.Drawing.Size(673, 101);
+            this.grbsize.Size = new System.Drawing.Size(369, 99);
             this.grbsize.TabIndex = 20;
             this.grbsize.TabStop = false;
             this.grbsize.Text = "Kích Thước Game";
@@ -319,9 +316,9 @@
             // 
             // btnupdatesize
             // 
-            this.btnupdatesize.Location = new System.Drawing.Point(416, 38);
+            this.btnupdatesize.Location = new System.Drawing.Point(244, 26);
             this.btnupdatesize.Name = "btnupdatesize";
-            this.btnupdatesize.Size = new System.Drawing.Size(187, 54);
+            this.btnupdatesize.Size = new System.Drawing.Size(101, 58);
             this.btnupdatesize.TabIndex = 3;
             this.btnupdatesize.Text = "Update size";
             this.btnupdatesize.UseVisualStyleBackColor = true;
@@ -330,7 +327,7 @@
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(179, 55);
+            this.label1.Location = new System.Drawing.Point(110, 55);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(18, 20);
             this.label1.TabIndex = 2;
@@ -338,64 +335,39 @@
             // 
             // txtH
             // 
-            this.txtH.Location = new System.Drawing.Point(223, 52);
+            this.txtH.Location = new System.Drawing.Point(153, 52);
+            this.txtH.Multiline = true;
             this.txtH.Name = "txtH";
-            this.txtH.Size = new System.Drawing.Size(110, 27);
+            this.txtH.Size = new System.Drawing.Size(70, 23);
             this.txtH.TabIndex = 1;
             // 
             // txtW
             // 
-            this.txtW.Location = new System.Drawing.Point(52, 52);
+            this.txtW.Location = new System.Drawing.Point(20, 52);
+            this.txtW.Multiline = true;
             this.txtW.Name = "txtW";
-            this.txtW.Size = new System.Drawing.Size(110, 27);
+            this.txtW.Size = new System.Drawing.Size(70, 23);
             this.txtW.TabIndex = 0;
             this.txtW.TextChanged += new System.EventHandler(this.textBox2_TextChanged);
             // 
-            // btnsavechat
+            // btnmenumob
             // 
-            this.btnsavechat.Location = new System.Drawing.Point(1009, 237);
-            this.btnsavechat.Name = "btnsavechat";
-            this.btnsavechat.Size = new System.Drawing.Size(122, 44);
-            this.btnsavechat.TabIndex = 21;
-            this.btnsavechat.Text = "Save chat";
-            this.btnsavechat.UseVisualStyleBackColor = true;
-            this.btnsavechat.Click += new System.EventHandler(this.btnsavechat_Click);
-            // 
-            // button2
-            // 
-            this.button2.Location = new System.Drawing.Point(1144, 237);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(122, 44);
-            this.button2.TabIndex = 22;
-            this.button2.Text = "button2";
-            this.button2.UseVisualStyleBackColor = true;
-            // 
-            // txtnoidungchat
-            // 
-            this.txtnoidungchat.Location = new System.Drawing.Point(737, 299);
-            this.txtnoidungchat.Multiline = true;
-            this.txtnoidungchat.Name = "txtnoidungchat";
-            this.txtnoidungchat.Size = new System.Drawing.Size(529, 40);
-            this.txtnoidungchat.TabIndex = 25;
-            // 
-            // label2
-            // 
-            this.label2.Location = new System.Drawing.Point(589, 302);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(142, 37);
-            this.label2.TabIndex = 26;
-            this.label2.Text = "nội dung chat";
-            this.label2.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.btnmenumob.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.btnmenumob.ForeColor = System.Drawing.SystemColors.InactiveBorder;
+            this.btnmenumob.Location = new System.Drawing.Point(836, 161);
+            this.btnmenumob.Name = "btnmenumob";
+            this.btnmenumob.Size = new System.Drawing.Size(93, 51);
+            this.btnmenumob.TabIndex = 22;
+            this.btnmenumob.Text = "Menu mob";
+            this.btnmenumob.UseVisualStyleBackColor = false;
+            this.btnmenumob.Click += new System.EventHandler(this.btnmenumob_Click);
             // 
             // frmQLTK
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(11F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1301, 535);
-            this.Controls.Add(this.label2);
-            this.Controls.Add(this.txtnoidungchat);
-            this.Controls.Add(this.button2);
-            this.Controls.Add(this.btnsavechat);
+            this.ClientSize = new System.Drawing.Size(987, 460);
+            this.Controls.Add(this.btnmenumob);
             this.Controls.Add(this.grbsize);
             this.Controls.Add(this.btncloseall);
             this.Controls.Add(this.btnloginall);
@@ -420,6 +392,7 @@
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.KeyPreview = true;
             this.Margin = new System.Windows.Forms.Padding(4);
+            this.MaximizeBox = false;
             this.Name = "frmQLTK";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "QLTK-Cường Lê";
@@ -462,14 +435,11 @@
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.TextBox txtH;
         private System.Windows.Forms.TextBox txtW;
+        private System.Windows.Forms.Button btnmenumob;
         private System.Windows.Forms.DataGridViewTextBoxColumn id;
         private System.Windows.Forms.DataGridViewTextBoxColumn account;
         private System.Windows.Forms.DataGridViewTextBoxColumn password;
         private System.Windows.Forms.DataGridViewTextBoxColumn server;
-        private System.Windows.Forms.Button btnsavechat;
-        private System.Windows.Forms.Button button2;
-        private System.Windows.Forms.TextBox txtnoidungchat;
-        private System.Windows.Forms.Label label2;
     }
 }
 

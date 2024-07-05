@@ -7,14 +7,14 @@
     <framework targetVersion="4.7.2" profile="Full" supportedRuntime="4.0.30319" />
   </compatibleFrameworks>
   <dependency>
-    <dependentAssembly dependencyType="install" codebase="QLTK nro -Cường Lê.exe.manifest" size="3540">
+    <dependentAssembly dependencyType="install" codebase="QLTK nro -Cường Lê.exe.manifest" size="3542">
       <assemblyIdentity name="QLTK nro -Cường Lê.exe" version="1.0.0.1" publicKeyToken="0000000000000000" language="neutral" processorArchitecture="msil" type="win32" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>W7o1cOXOOiS+c8BH0lhJ4pFqFn5rtlsuNGHTI7yymwk=</dsig:DigestValue>
+        <dsig:DigestValue>0p9k2topliKv536XQo7CZwUULt41G9QnciQNWPaIJd4=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>

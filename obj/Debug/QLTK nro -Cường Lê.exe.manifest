@@ -42,14 +42,14 @@
     </dependentAssembly>
   </dependency>
   <dependency>
-    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="QLTK nro -Cường Lê.exe" size="83952">
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="QLTK nro -Cường Lê.exe" size="3542512">
       <assemblyIdentity name="QLTK nro -Cường Lê" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>CaD1TEK2p/rbnhX03bfiR25lxi8u//yXbMyEuNoZ5ks=</dsig:DigestValue>
+        <dsig:DigestValue>VsEmPypdKDw4/f+/HcYWLi83KN+HhcAb7iuwJy+0Jxw=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>

@@ -22,3 +22,4 @@ C:\Users\Cuong Le\Desktop\C# winform\Quản lý tài khoản nro\Quản lý tài
 C:\Users\Cuong Le\Desktop\C# winform\Quản lý tài khoản nro\Quản lý tài khoản nro\obj\Debug\QLTK nro -Cường Lê.application
 C:\Users\Cuong Le\Desktop\C# winform\Quản lý tài khoản nro\Quản lý tài khoản nro\obj\Debug\QLTK nro -Cường Lê.exe
 C:\Users\Cuong Le\Desktop\C# winform\Quản lý tài khoản nro\Quản lý tài khoản nro\obj\Debug\QLTK nro -Cường Lê.pdb
+C:\Users\Cuong Le\Desktop\C# winform\Quản lý tài khoản nro\Quản lý tài khoản nro\obj\Debug\Quản_lý_tài_khoản_nro.frmmenumob.resources
